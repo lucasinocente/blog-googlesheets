@@ -26,7 +26,7 @@ function renderPostList(post) {
   const content = post.gsx$content.$t
 
   return '<div class="column">' +
-            '<a href="/posts/#' + url +'">' +
+            '<a href="posts/#' + url +'">' +
               '<div class="card">' +
                 '<div class="card-image">' +
                   '<figure class="image is-4by3">' +
